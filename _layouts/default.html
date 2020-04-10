@@ -7,20 +7,16 @@ layout: compress
 
   {% include head.html %}
 
-  <body>
-  <span class="over"></span>
-    
-    {% include masthead.html %}
-
+  <body style="background: url(/assets/img1.jpg) no-repeat;background-size: cover;">
+  <!-- <span class="over"></span> -->
       <main id="main" role="main">
-	      
+	      {% include masthead.html %}
         {{ content }}
+        <br/>
+        {% include footer.html %}
       </main>
 
-    
-    
 
-    {% include footer.html %}
 
   </body>
 </html>

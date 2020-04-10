@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  margin:0; 
-  padding:0; 
+  margin:0;
+  padding:0;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -19,10 +19,18 @@ header, main {
 
 main {
 	background: white;
-    border: 2px solid #e9ecef;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background:url(/assets/p2.png) no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    // border: 2px solid #e9ecef;
     -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
     box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-    padding: 2rem 3rem;
+    padding: 5rem 7rem;
 }
 
 ul, ol {
@@ -73,4 +81,3 @@ footer {
     text-align: center;
     color: inherit;
 }
-
