@@ -27,15 +27,16 @@ main {
   margin-top: 100px;
   margin-bottom: 0;
   padding-bottom: 0;
-  background:url(/assets/p2.png) no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-    // border: 2px solid #e9ecef;
+  background-color: lightyellow;
+  // background:url(/assets/p2.png) no-repeat;
+  // background-size: cover;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+    border: 25px ridge goldenrod;
     -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
     box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-    padding: 5rem 7rem;
+    padding: 2rem 4rem;
 }
 
 ul, ol {
